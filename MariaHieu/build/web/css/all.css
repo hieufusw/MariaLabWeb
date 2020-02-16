@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 22px;
+    /* image background */
+    background-image: url('../image/background/background.jpg');
+    /* nguyen ca anh */
+    background-repeat: no-repeat;
+    /* chi dinh anh o giua */
+    background-position: top center;
+    background-color: black;
+}
+
+.container{
+    background-color: #fff;
+    max-width: 980px;
+    /* set container in center */
+    margin: 0 auto;
+    /*đặt bóng cho viền*/
+    box-shadow: 0 0 24px rgba(0, 0, 0, .8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.alignment{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* ------------ HEADER -------------- */
+.header{
+    background-color: #f68c1f;
+    padding: 34px 15px;
+}
+
+.header h1{
+    /*font text*/
+    font-family: 'Times New Roman';
+    font-size: 47px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px 0 20px 0;
+}
+
+.header span{
+    /*font text*/
+    font-family: 'Times New Roman';
+    font-size: 22px;
+    color: #fff;
+}
+
+.menu{
+    background-color: #890400;
+    padding: 5px 5px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    margin : 0 15px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+/* ------------- MAIN ------------- */
+
+.page-content{
+    display: flex;
+    flex-direction: row;
+}
+/* ---------- 1 ---------- */
+.left-side{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30.4px;
+    padding-bottom: 22px;
+}
+
+.col-9{width: 75%}
+
+.introduction{
+    display: flex;
+    padding-bottom: 20px;
+    /*create thanh ngang
+    do day
+    cham bi
+    tang do mo
+    */
+    border-bottom: 3px dotted rgba(0,0,0,.2);
+    margin-bottom: 35px;
+}
+.default-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*------*/
+.text-medium {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    /*font-weight: bold;*/
+    /*padding: 35px 0 0 0px;*/
+}
+.col-4 {
+    width: 33.33%
+}
+.col-8 {
+    width: 66.66%
+}
+.text-large {
+    font-family: 'Times New Roman';
+    font-size: 28px;
+    /*padding: 35px 0 0 0px;*/
+}
+.text-large2 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding: 35px 0 5px 0px;
+    /*font-weight: bold;*/
+}
+/* ----------- 2 ------------- */
+
+.right-side{
+    margin-left: auto;
+    padding-top: 30.4px;
+}
+.col-3{width: 25%}
+/*-------- sharing -----------*/
+.sharing{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 20px;
+} 
+
+.sharing-heading{
+    padding: 5px 10px 0 25px;
+}
+
+.sharing-heading-text{
+    font-size: 20px;
+}
+
+.sharing-content{
+    padding: 0 15px 11px 13px;
+    margin-left: -30px;
+}
+.sharing__item{
+    list-style: none;
+    display: flex;
+}
+
+.sharing__social-icon{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin-right:5px;  
+}
+/*----------- image icon -------------*/
+.icon-facebook{
+    background-image: url('../image/icon/fbicon.JPG')
+}
+
+.icon-twitter{
+    background-image: url('../image/icon/twitericon.JPG')
+}
+
+.icon-google{
+    background-image: url('../image/icon/ggicon.JPG')
+}
+.color-item{
+    color: #000;
+}
+
+/*----------- page ----------*/
+.paging{
+    margin-bottom: 15px;
+}
+.paging-background1{
+    text-decoration: none;
+}
+.paging-background2{
+    background-color: #d5f46b;
+    padding: 10px 10px 10px 15px;
+    border-radius: 20px;
+}
+/* ---------- footer ---------- */
+.footer-head{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding:  30px 0 30px 0;
+}
+
+.right {
+    float: right;
+}
+
+.setBold{
+    font-weight: bold;
+}
+
+.footer-content-type{
+    /*up or down color*/
+    color: rgba(0,0,0,.8);
+    text-decoration: underline;
+    font-size: 90%;
+}

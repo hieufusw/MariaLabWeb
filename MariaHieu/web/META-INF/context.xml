@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/MariaHieu">
+    <Environment name="serverName" type="java.lang.String" value="localhost"/>
+    <Environment name="port" type="java.lang.Integer" value="1433"/>
+    <Environment name="dbName" type="java.lang.String" value="MariaCafe"/>
+    <Environment name="db" type="java.lang.Boolean" value="true"/>
+    <Environment name="imgFolder" type="java.lang.String" value="image/"/>
+    <Environment name="password" type="java.lang.String" value="123456"/>
+    <Environment name="username" type="java.lang.String" value="sa"/>
+</Context>

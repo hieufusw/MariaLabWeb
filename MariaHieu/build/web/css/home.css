@@ -1,0 +1,50 @@
+.list-cake{
+    display: flex;
+    border-bottom: 3px dotted rgba(0,0,0,.2);
+}
+.cake:last-child{
+    margin-left: auto;
+}
+.col-5-5{
+    width: 49%;
+}
+
+/*--*/
+.intro__image {
+    /*display: flex;*/
+}
+.col-3 {
+    width: 25%
+}
+
+.intro__content {
+    padding-left: 15px;
+}
+.col-9 {
+    width: 75%
+}
+.cake__title2{
+    text-decoration: none;
+    color:#000;
+}
+.intro__link{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}	
+.intro-image{
+    border-radius: 10px;
+    float: left;
+    height: auto;
+    margin-right: 15px;
+}
+
+.cafe_sign {
+    border-top: 3px dotted rgba(0,0,0,.2);
+}
+.style_name {
+    font-family: 'Dancing Script',serif;
+    margin-top: 0;
+    font-size: 44px;
+}

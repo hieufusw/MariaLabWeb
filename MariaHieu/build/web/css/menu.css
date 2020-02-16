@@ -1,0 +1,23 @@
+.list-heading{
+    padding: 15px 0;
+}
+.list-cake{
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 3px dotted rgba(0,0,0,.2);
+}
+.list-cake__link{
+    text-decoration: none;
+    color: #000;
+}
+.list-cake__content{
+    display: flex;
+}
+.list-cake__description{
+    padding-right: 20px;
+}
+.col-8 {
+    width: 66.66%
+}
+.list-cake__image{
+}
